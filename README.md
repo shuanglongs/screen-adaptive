@@ -23,15 +23,22 @@ ScreenAdaptiveUtils.cancelAdaptive(this,App.getsContext());
 ```
 // 项目的 build.gradle
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+	...
+	maven { url 'https://jitpack.io' }
+	}
 }
   
 //  app 的 build.gradle
 dependencies {
-	    implementation 'com.github.shuanglongs:screen-adaptive:1.0'
+	implementation 'com.github.shuanglongs:screen-adaptive:1.0'
 }
 ```
-备注 ：使用中如果发现有问题可以直接在 github 中提 issue，或者直接邮件我 lishuanglongl@aliyun.com ，欢迎 start ！
+
+备注 ：使用中如果发现有问题可以直接在 github 中提 issue，或者直接邮件我 lishuanglongl@aliyun.com ，欢迎 star ！
+
+
+
+
+
+
