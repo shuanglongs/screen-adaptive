@@ -1,6 +1,4 @@
-# screen-adaptive
-
-根据“今日头条技术团队”分享的Android屏幕适配方案进行封装。
+# screen-adaptive （根据“今日头条技术团队”分享的Android屏幕适配方案进行封装。）
 
 用法很简单如下：（记得要在Activity的setContentView方法之间调用喔）
 //按照设计图纸宽度 360dp ，density：3 进行适配
