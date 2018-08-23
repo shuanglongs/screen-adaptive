@@ -6,8 +6,10 @@
 ```
 //按照设计图纸宽度 360dp ，density：3 进行适配
 ScreenAdaptiveUtils.screenAdaptiveWidth(this,App.getsContext(),360);
+
 //按照设计图纸高度 640dp ，density：3 进行适配
 ScreenAdaptiveUtils.screenAdaptiveHeight(this,App.getsContext(),640);
+
 //取消或者关闭屏幕适配
 ScreenAdaptiveUtils.cancelAdaptive(this,App.getsContext());
 ```
@@ -18,4 +20,6 @@ ScreenAdaptiveUtils.cancelAdaptive(this,App.getsContext());
 2. 直接复制 “ScreenAdaptiveUtils” 类，因为这个适配方案的代码并不多，所以一个类就搞定了。
 
 3. 在项目的 “build.gradle”文件中添加 Gradle 依赖。
+```
 
+```
