@@ -21,7 +21,7 @@ ScreenAdaptiveUtils.cancelAdaptive(this,App.getsContext());
 
 3. 以 Gradle 依赖的形式添加到项目中。的 “build.gradle”文件中添加 。
 ```
-// 项目的 build.gradle
+// project的 build.gradle
 allprojects {
 	repositories {
 	...
