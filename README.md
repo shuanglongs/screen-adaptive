@@ -2,7 +2,7 @@
 
 用法很简单，记得要在Activity的setContentView方法之间调用喔。
 示例如下：
-按照设计图纸宽度 360dp ，density：3 进行适配
+1.按照设计图纸宽度 360dp ，density：3 进行适配
 ScreenAdaptiveUtils.screenAdaptiveWidth(this,App.getsContext(),360);
 
 
