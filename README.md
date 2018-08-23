@@ -1,11 +1,14 @@
 # screen-adaptive （根据“今日头条技术团队”分享的Android屏幕适配方案进行封装。）
 
 用法很简单，记得要在Activity的setContentView方法之间调用喔。
-
-
 示例如下：
 按照设计图纸宽度 360dp ，density：3 进行适配
 ScreenAdaptiveUtils.screenAdaptiveWidth(this,App.getsContext(),360);
+
+
+
+
+
 按照设计图纸高度 640dp ，density：3 进行适配
 ScreenAdaptiveUtils.screenAdaptiveHeight(this,App.getsContext(),640);
 取消或者关闭屏幕适配
