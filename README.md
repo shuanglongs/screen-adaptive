@@ -1,5 +1,5 @@
 # screen-adaptive 
-## 根据“今日头条技术团队”分享的Android屏幕适配方案进行封装
+## 根据“今日头条技术团队”分享的[Android屏幕适配方案](https://mp.weixin.qq.com/s/d9QCoBP6kV9VSWvVldVVwA)进行封装
 
 用法很简单（记得要在Activity的setContentView方法之前调用）
 示例如下：
@@ -19,7 +19,19 @@ ScreenAdaptiveUtils.cancelAdaptive(this,App.getsContext());
 
 2. 直接复制 “ScreenAdaptiveUtils” 类，因为这个适配方案的代码并不多，所以一个类就搞定了。
 
-3. 在项目的 “build.gradle”文件中添加 Gradle 依赖。
+3. 以 Gradle 依赖的形式添加到项目中。的 “build.gradle”文件中添加 。
 ```
-
+// 项目的 build.gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+  
+//  app 的 build.gradle
+dependencies {
+	    implementation 'com.github.shuanglongs:screen-adaptive:1.0'
+}
 ```
+备注 ：使用中如果发现有问题可以直接在 github 中提 issue，或者直接邮件我 lishuanglongl@aliyun.com ，欢迎 start ！
